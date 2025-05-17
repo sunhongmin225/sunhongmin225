@@ -9,9 +9,9 @@
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="center">
+<p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,cpp,docker,elasticsearch,figma,github,githubactions,grafana,java,jenkins,kubernetes,linux,mongodb,postgres,prometheus,py,terraform,ts," />
+    <img src="https://skillicons.dev/icons?i=aws,kubernetes,terraform,prometheus,grafana,elasticsearch,jenkins,githubactions,py,java,cpp,ts,linux,github,docker," />
   </a>
 </p>
 
