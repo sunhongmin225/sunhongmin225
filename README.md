@@ -3,11 +3,7 @@
 
 ## 📌 Table of Contents
 
-- [💭 About Me](#-about-me)
-- [🛠️ Skills](#%EF%B8%8F-skills)
-    - [🔧 Technical Skills](#-technical-skills)
-    - [🤝 Soft Skills](#-soft-skills)
-- [🌐 Languages](#-languages)
+- [💼 Work Experience](#-work-experience)
 - [🎓 Education](#-education)
 - [🏢 About Blux](#-about-blux)
 - [🚀 Projects @ Blux](#-projects--blux)
@@ -16,53 +12,38 @@
     - [🧩 모범 SaaS 아키텍처 패턴에 따른 EKS 클러스터 고도화](#-모범-saas-아키텍처-패턴에-따른-eks-클러스터-고도화)
     - [🏗️ Production-Ready 상태의 EKS 클러스터 구축 및 ECS to EKS 무중단 Migration](#%EF%B8%8F-production-ready-상태의-eks-클러스터-구축-및-ecs-to-eks-무중단-migration)
 - [🗣️ Publications & Talks](#%EF%B8%8F-publications--talks)
-    - [✍️ Technical Writings](#%EF%B8%8F-technical-writings)
     - [🎤 Talks](#-talks)
+    - [✍️ Technical Writings](#%EF%B8%8F-technical-writings)
     - [📚 Academic Publications](#-academic-publications)
+- [🛠️ Skills & Languages](#%EF%B8%8F-skills--languages)
+    - [🔧 Technical Skills](#-technical-skills)
+    - [🤝 Soft Skills](#-soft-skills)
+    - [🌐 Languages](#-languages)
 - [📇 Contact Information](#-contact-information)
 
-## 💭 About Me
+## 💼 Work Experience
 
-- `새로운 기술`을 배우고 이를 `실무에 적용`하는 데 큰 열정을 가지고 있습니다.
-- `책임감 있고 꼼꼼한 성격`으로, 기술적 이슈나 운영 리스크를 사전에 감지하고 빠르게 대응하려 노력합니다.
-- 남들에게 `쉬운 언어로 설명`할 수 있어야 진정으로 알고 있는 것이라고 믿습니다.
-- `일상 속 불편함을 발견하고 이를 해결`하는 것을 중요하게 생각합니다.
-- 축구와 같은 `팀 스포츠`를 즐기며, `꾸준히 운동하는 습관`을 가지고 있습니다.
-
-## 🛠️ Skills
-
-### 🔧 Technical Skills
-
-- 클라우드 및 DevOps
-    - 인프라: AWS, Kubernetes, Helm, Terraform
-    - 오토스케일링: HPA, Karpenter
-    - 로깅 및 모니터링: Prometheus, Loki, Grafana, Elasticsearch, Fluentd, Kibana
-    - CI/CD 및 GitOps: Jenkins, GitHub Actions, Argo CD
-- 프로그래밍 언어: Python, Java, C++, TypeScript
-- 운영 환경 및 도구: Linux, Git, Docker
-
-### 🤝 Soft Skills
-
-- `글쓰기`를 좋아합니다. 특히 제가 했던 작업을 `쉬운 말로 정리하여 기록으로 남겨놓는 것`을 잘합니다.
-- `완성도 높은 발표 자료`를 만들고 `여러 청중 앞에서 발표`할 수 있습니다.
-- `팀원들과 의사소통`할 때 최대한 `이해가 쉽고 오해가 없는 표현`을 사용합니다.
-- `정해진 주인이 없는 일을 마다하지 않고 먼저 챙기며`, 팀의 운영과 분위기에 긍정적인 영향을 주기 위해 노력합니다.
-
-## 🌐 Languages
-
-- 한국어: 모국어
-- 영어: 능숙함
-    - TOEFL 114점 / 120점 (2018년 5월 취득)
+- [블럭스 (주식회사 제트에이아이)](https://www.blux.ai/) (2023년 1월 - 현재)
+    - *Information Security and DevOps Lead* (2024년 8월 - 현재)
+        - **SOC 2 Type I 및 Type II 전 감사 과정을 주도**했습니다. 그 과정에서 사내 보안 프로토콜 수립 및 교육 실시, 백업 및 복원 테스트 수행, 위험 평가 실시, CloudTrail/WAF/GuardDuty 구성을 포함한 클라우드 보안 강화 등 100개 이상의 항목에 대한 대응을 진행하였습니다. 외부 감사 역시 단독으로 대응하였고, 그 결과 **보안 사고 없이 7개월 내 양 감사를 모두 통과**할 수 있었습니다.
+            - 관련 프로젝트 보기 👉 [🔐 글로벌 보안 표준(SOC 2) 검증 준비 및 통과](#-글로벌-보안-표준soc-2-검증-준비-및-통과)
+    - *MLOps Engineer* (2023년 1월 - 2024년 8월)
+        - **프로덕션용 EKS 클러스터를 스크래치부터 구축**하고, **ECS 워크로드를 무중단으로 마이그레이션**하였습니다. (해당 클러스터는 MAU 1,000만 명 이상이 사용하는 실시간 추천 서비스를 현재까지 주요 장애 없이 안정적으로 운영 중)
+            - 관련 프로젝트 보기 👉 [🏗️ Production-Ready 상태의 EKS 클러스터 구축 및 ECS to EKS 무중단 Migration](#%EF%B8%8F-production-ready-상태의-eks-클러스터-구축-및-ecs-to-eks-무중단-migration)
+        - **아마존 모범 사례 기반의 멀티 테넌시 SaaS 아키텍처를 설계하고 구현**하였습니다. (자동화된 온보딩, 티어 기반의 사일로/풀 배포 모델, IRSA를 활용한 테넌트 단위 자원 격리 포함)
+            - 관련 프로젝트 보기 👉 [🧩 모범 SaaS 아키텍처 패턴에 따른 EKS 클러스터 고도화](#-모범-saas-아키텍처-패턴에-따른-eks-클러스터-고도화)
+        - Blue-Green 배포 전략을 활용해 **Kubernetes 클러스터 버전을 무중단으로 업그레이드**하고, **신규 클러스터 프로비저닝을 스크립트 기반으로 자동화**하였습니다.
+            - 관련 프로젝트 보기 👉 [🔄 무중단 EKS 클러스터 버전 업그레이드 및 자동화된 Blue-Green 배포 모델 구축](#-무중단-eks-클러스터-버전-업그레이드-및-자동화된-blue-green-배포-모델-구축)
 
 ## 🎓 Education
 
-- 서울대학교 컴퓨터공학부 석사 졸업 (2021년 3월 - 2023년 2월)
-    - [아키텍처 및 코드 최적화 연구실](https://arc.snu.ac.kr/)
-- 서울대학교 산업공학과, 컴퓨터공학부 학사 졸업 (2014년 3월 - 2021년 2월)
+- 서울대학교 컴퓨터공학부 석사 (2021년 3월 - 2023년 2월)
+    - [아키텍처 및 코드 최적화 연구실](https://arc.snu.ac.kr/)에서 대규모 데이터셋 처리 및 시스템 설계를 연구했습니다.
+- 서울대학교 산업공학과, 컴퓨터공학부 학사 (복수 전공, 2014년 3월 - 2021년 2월)
 
 ## 🏢 About Blux
 
-- 블럭스(법인명: 주식회사 제트에이아이)는 **초개인화 상품 추천 및 CRM 마케팅 솔루션**을 제공하는 B2B SaaS 스타트업으로, 기업의 수익 성장을 돕는 AI 기반 제품을 개발하고 있습니다.
+- [블럭스(법인명: 주식회사 제트에이아이)](https://www.blux.ai/)는 **초개인화 상품 추천 및 CRM 마케팅 솔루션**을 제공하는 B2B SaaS 스타트업으로, 기업의 수익 성장을 돕는 AI 기반 제품을 개발하고 있습니다.
 - Blux Recommendation은 실시간 사용자 행동 데이터를 기반으로 한 개인화 상품 추천 솔루션으로, **월 1,000만 명 이상의 최종 사용자에게 100% 실시간 추천을 제공**하며, 커머스 기업들의 구매 전환율을 도입 이전 대비 최대 7배 향상시키는 성과를 내고 있습니다.
 - Blux Message는 다양한 메시징 채널을 통해 사용자별로 최적의 콘텐츠, 발송 타이밍, 수단을 실시간으로 결정하여 마케팅 캠페인을 실행하는 초개인화 CRM 마케팅 솔루션입니다.
 - 블럭스는 클라이언트별 맞춤형 AI 모델 개발부터 실서비스 적용까지의 전체 과정을 자체적으로 제공하며, 전통적인 방식으로 수 개월이 소요되던 추천 시스템 구축을 단 몇 시간 내에 가능하게 하는 **자동화된 SaaS 환경**을 제공합니다.
@@ -110,7 +91,7 @@
 **참고 자료**
 
 - [📝 [2025년 5월, 블럭스 블로그] 블럭스의 SOC 2 보안 여정과 우리가 남긴 기록](https://blog.blux.ai/%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-soc-2-%EB%B3%B4%EC%95%88-%EC%97%AC%EC%A0%95%EA%B3%BC-%EC%9A%B0%EB%A6%AC%EA%B0%80-%EB%82%A8%EA%B8%B4-%EA%B8%B0%EB%A1%9D-49217)
-- [📰 [2025년 3월, AWS Unicorn Day 2025] 블럭스의 SaaS 서비스를 위한 보안 여정 (feat. SOC 2)](https://blog.blux.ai/aws-unicorn-day-2025%EC%97%90%EC%84%9C-%EC%A0%84%ED%95%98%EB%8A%94-%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-%EB%B3%B4%EC%95%88-%EC%A0%84%EB%9E%B5-48063)
+- [📰 [2025년 3월, AWS Unicorn Day] 블럭스의 SaaS 서비스를 위한 보안 여정 (feat. SOC 2)](https://blog.blux.ai/aws-unicorn-day-2025%EC%97%90%EC%84%9C-%EC%A0%84%ED%95%98%EB%8A%94-%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-%EB%B3%B4%EC%95%88-%EC%A0%84%EB%9E%B5-48063)
     - [📄 발표 자료 보기 (PDF)](./assets/AWS_Unicorn_Day_2025_Deck.pdf)
 
 ### 🔄 무중단 EKS 클러스터 버전 업그레이드 및 자동화된 Blue-Green 배포 모델 구축
@@ -193,7 +174,7 @@
 **참고 자료**
 
 - [📝 [2023년 11월, AWS 기술 블로그] Blux(구 Z.Ai)의 Amazon EKS 기반 AWS SaaS 아키텍처 주요 패턴 적용 사례](https://aws.amazon.com/ko/blogs/tech/blux-adopting-aws-saas-architecture/)
-- [🎥 [2024년 3월, AWS Unicorn Day 2024] [Track 3-4] SaaS 솔루션 구축을 위한 주요 기술 고려 사항과 Blux의 AI SaaS 솔루션 구축 사례](https://www.youtube.com/watch?v=QKi14XpHY7M)
+- [🎥 [2024년 3월, AWS Unicorn Day] [Track 3-4] SaaS 솔루션 구축을 위한 주요 기술 고려 사항과 Blux의 AI SaaS 솔루션 구축 사례](https://youtu.be/QKi14XpHY7M?si=KC5pfXqaEd_y4SOZ&t=1267)
     - [📄 발표 자료 보기 (PDF)](./assets/AWS_Unicorn_Day_2024_Deck.pdf)
 
 ### 🏗️ Production-Ready 상태의 EKS 클러스터 구축 및 ECS to EKS 무중단 Migration
@@ -259,6 +240,14 @@
 
 ## 🗣️ Publications & Talks
 
+### 🎤 Talks
+
+- [📰 [2025년 3월, AWS Unicorn Day] 블럭스의 SaaS 서비스를 위한 보안 여정 (feat. SOC 2)](https://blog.blux.ai/aws-unicorn-day-2025%EC%97%90%EC%84%9C-%EC%A0%84%ED%95%98%EB%8A%94-%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-%EB%B3%B4%EC%95%88-%EC%A0%84%EB%9E%B5-48063)
+    - [📄 발표 자료 보기 (PDF)](./assets/AWS_Unicorn_Day_2025_Deck.pdf)
+- [📰 [2024년 10월, AWS 2024 SaaS Developer Bootcamp] 블럭스의 AI SaaS 솔루션 구축 사례](https://blog.blux.ai/%EB%B8%94%EB%9F%AD%EC%8A%A4%EA%B0%80-%EC%A0%84%ED%95%98%EB%8A%94-aws-saas-%EC%A0%84%ED%99%98%EC%9D%98-%EC%84%B1%EA%B3%B5-%EB%B9%84%EA%B2%B0-33488)
+- [🎥 [2024년 3월, AWS Unicorn Day] [Track 3-4] SaaS 솔루션 구축을 위한 주요 기술 고려 사항과 Blux의 AI SaaS 솔루션 구축 사례](https://youtu.be/QKi14XpHY7M?si=KC5pfXqaEd_y4SOZ&t=1267)
+    - [📄 발표 자료 보기 (PDF)](./assets/AWS_Unicorn_Day_2024_Deck.pdf)
+
 ### ✍️ Technical Writings
 
 - [📝 [2025년 5월, 블럭스 블로그] 블럭스의 SOC 2 보안 여정과 우리가 남긴 기록](https://blog.blux.ai/%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-soc-2-%EB%B3%B4%EC%95%88-%EC%97%AC%EC%A0%95%EA%B3%BC-%EC%9A%B0%EB%A6%AC%EA%B0%80-%EB%82%A8%EA%B8%B4-%EA%B8%B0%EB%A1%9D-49217)
@@ -269,23 +258,40 @@
 - [📝 [2024년 1월, 블럭스 블로그] GitHub Public Repository에 올려도 되는 안전한 Kubernetes Secrets, ‘Sealed Secrets’](https://blog.blux.ai/sealed-secrets-github-public-repository%EC%97%90-%EC%98%AC%EB%A0%A4%EB%8F%84-%EB%90%98%EB%8A%94-%EC%95%88%EC%A0%84%ED%95%9C-kubernetes-secrets-17393)
 - [📝 [2023년 11월, AWS 기술 블로그] Blux(구 Z.Ai)의 Amazon EKS 기반 AWS SaaS 아키텍처 주요 패턴 적용 사례](https://aws.amazon.com/ko/blogs/tech/blux-adopting-aws-saas-architecture/)
 
-### 🎤 Talks
-
-- [📰 [2025년 3월, AWS Unicorn Day 2025] 블럭스의 SaaS 서비스를 위한 보안 여정 (feat. SOC 2)](https://blog.blux.ai/aws-unicorn-day-2025%EC%97%90%EC%84%9C-%EC%A0%84%ED%95%98%EB%8A%94-%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-%EB%B3%B4%EC%95%88-%EC%A0%84%EB%9E%B5-48063)
-    - [📄 발표 자료 보기 (PDF)](./assets/AWS_Unicorn_Day_2025_Deck.pdf)
-- [📰 [2024년 10월, AWS 2024 SaaS Developer Bootcamp] 블럭스의 AI SaaS 솔루션 구축 사례](https://blog.blux.ai/%EB%B8%94%EB%9F%AD%EC%8A%A4%EA%B0%80-%EC%A0%84%ED%95%98%EB%8A%94-aws-saas-%EC%A0%84%ED%99%98%EC%9D%98-%EC%84%B1%EA%B3%B5-%EB%B9%84%EA%B2%B0-33488)
-- [🎥 [2024년 3월, AWS Unicorn Day 2024] [Track 3-4] SaaS 솔루션 구축을 위한 주요 기술 고려 사항과 Blux의 AI SaaS 솔루션 구축 사례](https://youtu.be/QKi14XpHY7M?si=KC5pfXqaEd_y4SOZ&t=1267)
-    - [📄 발표 자료 보기 (PDF)](./assets/AWS_Unicorn_Day_2024_Deck.pdf)
-
 ### 📚 Academic Publications
 
 - [📃 [VLDB ‘22] Ginex: SSD-enabled Billion-scale Graph Neural Network Training on a Single Machine via Provably Optimal In-memory Caching](./assets/vldb22_ginex.pdf) by Yeonhong Park, **Sunhong Min**, Jae W. Lee
 - [📃 [HPCA ‘22] ANNA: Specialized Architecture for Approximate Nearest Neighbor Search](./assets/hpca22_anna.pdf) by Yejin Lee, Hyunji Choi, **Sunhong Min**, Hyunseung Lee, Sangwon Baek, Dawoon Jeong, Jae W. Lee, Tae Jun Ham
 - [📃 [ISCA ‘21] BOSS: Bandwidth-Optimized Search Accelerator for Storage-Class Memory](./assets/isca21_boss.pdf) by Jun Heo, Seung Yul Lee, **Sunhong Min**, Yeonhong Park, Sung Jun Jung, Tae Jun Ham, Jae W. Lee
 
+## 🛠️ Skills & Languages
+
+### 🔧 Technical Skills
+
+- 클라우드 및 DevOps
+    - 인프라: AWS, Kubernetes, Helm, Terraform
+    - 오토스케일링: HPA, Karpenter
+    - 로깅 및 모니터링: Prometheus, Loki, Grafana, Elasticsearch, Fluentd, Kibana
+    - CI/CD 및 GitOps: Jenkins, GitHub Actions, Argo CD
+- 프로그래밍 언어: Python, Java, C++, TypeScript
+- 운영 환경 및 도구: Linux, Git, Docker
+
+### 🤝 Soft Skills
+
+- `글쓰기`를 좋아합니다. 특히 제가 했던 작업을 `쉬운 말로 정리하여 기록으로 남겨놓는 것`을 잘합니다.
+- `완성도 높은 발표 자료`를 만들고 `여러 청중 앞에서 발표`할 수 있습니다.
+- `팀원들과 의사소통`할 때 최대한 `이해가 쉽고 오해가 없는 표현`을 사용합니다.
+- `정해진 주인이 없는 일을 마다하지 않고 먼저 챙기며`, 팀의 운영과 분위기에 긍정적인 영향을 주기 위해 노력합니다.
+
+### 🌐 Languages
+
+- 한국어: 모국어
+- 영어: 능숙함
+    - TOEFL 114점 / 120점 (2018년 5월 취득)
+
 ## 📇 Contact Information
 
 - 이메일: sunhongmin10@gmail.com
 - 거주지: 서울
-- 깃허브: [https://github.com/sunhongmin225](https://github.com/sunhongmin225/)
-- 링크드인: [https://www.linkedin.com/in/sunhongmin](https://www.linkedin.com/in/sunhongmin/)
+- GitHub: [https://github.com/sunhongmin225](https://github.com/sunhongmin225/)
+- LinkedIn: [https://www.linkedin.com/in/sunhongmin](https://www.linkedin.com/in/sunhongmin/)
