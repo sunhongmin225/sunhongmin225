@@ -10,7 +10,7 @@
     - [🔐 글로벌 보안 표준(SOC 2) 검증 준비 및 통과](#-글로벌-보안-표준soc-2-검증-준비-및-통과)
     - [🔄 무중단 EKS 클러스터 버전 업그레이드 및 자동화된 Blue-Green 배포 모델 구축](#-무중단-eks-클러스터-버전-업그레이드-및-자동화된-blue-green-배포-모델-구축)
     - [🧩 모범 SaaS 아키텍처 패턴에 따른 EKS 클러스터 고도화](#-모범-saas-아키텍처-패턴에-따른-eks-클러스터-고도화)
-    - [🏗️ Production-Ready 상태의 EKS 클러스터 구축 및 ECS to EKS 무중단 Migration](#%EF%B8%8F-production-ready-상태의-eks-클러스터-구축-및-ecs-to-eks-무중단-migration)
+    - [🏗️ Production-Grade의 EKS 클러스터 구축 및 ECS to EKS 무중단 Migration](#%EF%B8%8F-production-grade의-eks-클러스터-구축-및-ecs-to-eks-무중단-migration)
 - [🗣️ Publications & Talks](#%EF%B8%8F-publications--talks)
     - [🎤 Talks](#-talks)
     - [✍️ Technical Writings](#%EF%B8%8F-technical-writings)
@@ -29,7 +29,7 @@
             - 관련 프로젝트 보기 👉 [🔐 글로벌 보안 표준(SOC 2) 검증 준비 및 통과](#-글로벌-보안-표준soc-2-검증-준비-및-통과)
     - *MLOps Engineer* (2023년 1월 - 2024년 8월)
         - **프로덕션용 EKS 클러스터를 스크래치부터 구축**하고, **ECS 워크로드를 무중단으로 마이그레이션**하였습니다. (해당 클러스터는 MAU 1,000만 명 이상이 사용하는 실시간 추천 서비스를 현재까지 주요 장애 없이 안정적으로 운영 중)
-            - 관련 프로젝트 보기 👉 [🏗️ Production-Ready 상태의 EKS 클러스터 구축 및 ECS to EKS 무중단 Migration](#%EF%B8%8F-production-ready-상태의-eks-클러스터-구축-및-ecs-to-eks-무중단-migration)
+            - 관련 프로젝트 보기 👉 [🏗️ Production-Grade의 EKS 클러스터 구축 및 ECS to EKS 무중단 Migration](#%EF%B8%8F-production-grade의-eks-클러스터-구축-및-ecs-to-eks-무중단-migration)
         - **아마존 모범 사례 기반의 멀티 테넌시 SaaS 아키텍처를 설계하고 구현**하였습니다. (자동화된 온보딩, 티어 기반의 사일로/풀 배포 모델, IRSA를 활용한 테넌트 단위 자원 격리 포함)
             - 관련 프로젝트 보기 👉 [🧩 모범 SaaS 아키텍처 패턴에 따른 EKS 클러스터 고도화](#-모범-saas-아키텍처-패턴에-따른-eks-클러스터-고도화)
         - Blue-Green 배포 전략을 활용해 **Kubernetes 클러스터 버전을 무중단으로 업그레이드**하고, **신규 클러스터 프로비저닝을 스크립트 기반으로 자동화**하였습니다.
@@ -57,7 +57,7 @@
 **배경**
 
 - 블럭스는 국내외 여러 대기업을 대상으로 B2B SaaS 서비스를 제공하고 있는데, 영업 과정에서 **SOC 2 등 글로벌 보안 표준의 인증 여부가 선제 조건**으로 요구되는 사례가 다수 발생하였습니다.
-- 2024년 4월에 저의 리드 하에 저희의 제품이 **AWS Foundational Technical Review(FTR)를 통과**하며 전반적인 클라우드 보안 상태를 점검한 바가 있었으나, **SOC 2나 ISO 27001와 같은 글로벌 수준의 보안 요건**을 기준으로 보았을 때는 **백업 정책, 엔드포인트 보호, 재해 복구 계획 등 실질적인 보안 체계가 미흡한 상태**였습니다.
+- 2024년 4월에 저의 리드 하에 저희의 제품이 **[AWS Foundational Technical Review(FTR)](https://aws.amazon.com/ko/partners/foundational-technical-review/)를 통과**하며 전반적인 클라우드 보안 상태를 점검한 바가 있었으나, **SOC 2나 ISO 27001와 같은 글로벌 수준의 보안 요건**을 기준으로 보았을 때는 **백업 정책, 엔드포인트 보호, 재해 복구 계획 등 실질적인 보안 체계가 미흡한 상태**였습니다.
 - 이에 따라 블럭스의 **보안 체계를 글로벌 기준에 맞게 정비**하고, **SOC 2 Type I 및 Type II 보고서를 발급받는 것**을 본 프로젝트의 최종 목표로 삼았습니다.
 - 저는 MLOps 엔지니어로서의 기존 역할을 확장하여, 2024년 8월부터 **회사 내 유일한 보안 담당자로서 SOC 2 프로젝트를 리드**하게 되었습니다.
 
@@ -177,7 +177,7 @@
 - [🎥 [2024년 3월, AWS Unicorn Day] [Track 3-4] SaaS 솔루션 구축을 위한 주요 기술 고려 사항과 Blux의 AI SaaS 솔루션 구축 사례](https://youtu.be/QKi14XpHY7M?si=KC5pfXqaEd_y4SOZ&t=1267)
     - [📄 발표 자료 보기 (PDF)](./assets/AWS_Unicorn_Day_2024_Deck.pdf)
 
-### 🏗️ Production-Ready 상태의 EKS 클러스터 구축 및 ECS to EKS 무중단 Migration
+### 🏗️ Production-Grade의 EKS 클러스터 구축 및 ECS to EKS 무중단 Migration
 
 *2023년 1월 - 2023년 5월*
 
@@ -203,7 +203,7 @@
         - Layer 1: 클라우드 기반 Kubernetes 클러스터 및 시스템 인프라 (EKS, EC2 노드 그룹, IAM, KMS 등)
         - Layer 2: MLOps 및 GitOps 스택 구성
         - Layer 3: 실제 블럭스 애플리케이션
-    - Layer 0과 1은 AWS와 같은 클라우드 리소스를 직접 사용하기 때문에 클라우드 종속적인 계층이며, Layer 2와 3은 상대적으로 클라우드 독립적인 구성으로서 다양한 환경에서도 동일한 방식으로 재현이 가능하도록 설계했습니다. 이를 통해 **보안, 확장성, 안정성, 재현 가능성**을 모두 고려한 Production-Ready 인프라를 구현했습니다.
+    - Layer 0과 1은 AWS와 같은 클라우드 리소스를 직접 사용하기 때문에 클라우드 종속적인 계층이며, Layer 2와 3은 상대적으로 클라우드 독립적인 구성으로서 다양한 환경에서도 동일한 방식으로 재현이 가능하도록 설계했습니다. 이를 통해 **보안, 확장성, 안정성, 재현 가능성**을 모두 고려한 Production-Grade 인프라를 구현했습니다.
 
 <p align="center">
   <img src="./assets/arch.png" alt="EKS 기반 아키텍처" width="700"/>
