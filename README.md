@@ -23,8 +23,8 @@
 
 ## 💼 Work Experience
 
-- [블럭스 (주식회사 제트에이아이)](https://www.blux.ai/) (2023년 1월 - 현재)
-    - *Information Security and DevOps Lead* (2024년 8월 - 현재)
+- [블럭스 (주식회사 제트에이아이)](https://www.blux.ai/) (2023년 1월 - 2025년 6월)
+    - *Information Security and DevOps Lead* (2024년 8월 - 2025년 6월)
         - **SOC 2 Type I 및 Type II 전 감사 과정을 주도**했습니다. 그 과정에서 사내 보안 프로토콜 수립 및 교육 실시, 백업 및 복원 테스트 수행, 위험 평가 실시, CloudTrail/WAF/GuardDuty 구성을 포함한 클라우드 보안 강화 등 100개 이상의 항목에 대한 대응을 진행하였습니다. 외부 감사 역시 단독으로 대응하였고, 그 결과 **보안 사고 없이 7개월 내 양 감사를 모두 통과**할 수 있었습니다.
             - 관련 프로젝트 보기 👉 [🔐 글로벌 보안 표준(SOC 2) 검증 준비 및 통과](#-글로벌-보안-표준soc-2-검증-준비-및-통과)
     - *MLOps Engineer* (2023년 1월 - 2024년 8월)
