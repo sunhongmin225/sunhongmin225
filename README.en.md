@@ -1,6 +1,4 @@
-
-> 🌐 *This page is written in English.*  
-> 👉 *[한국어 버전 보기](https://github.com/sunhongmin225/)*
+> _You can view this portfolio more conveniently at [this link](https://github.com/sunhongmin225/sunhongmin225/blob/main/README.en.md)._
 
 <h1 align="center">Hi, I'm Sunhong Min, a DevOps Engineer.</h1>
 
@@ -10,38 +8,38 @@
 - [🎓 Education](#-education)
 - [🏢 About Blux](#-about-blux)
 - [🚀 Projects @ Blux](#-projects--blux)
-    - [🔐 Preparing for and Passing SOC 2 Compliance Audits](#-preparing-for-and-passing-soc-2-compliance-audits)
-    - [🔄 Zero-Downtime EKS Cluster Version Upgrades and Automated Blue-Green Deployment](#-zero-downtime-eks-cluster-version-upgrades-and-automated-blue-green-deployment)
-    - [🧩 Enhancing EKS Cluster with SaaS Architecture Best Practices](#-enhancing-eks-cluster-with-saas-architecture-best-practices)
-    - [🏗️ Building a Production-Grade EKS Cluster and Zero-Downtime ECS to EKS Migration](#%EF%B8%8F-building-a-production-grade-eks-cluster-and-zero-downtime-ecs-to-eks-migration)
+  - [🔐 Preparing for and Passing SOC 2 Compliance Audits](#-preparing-for-and-passing-soc-2-compliance-audits)
+  - [🔄 Zero-Downtime EKS Cluster Version Upgrades and Automated Blue-Green Deployment](#-zero-downtime-eks-cluster-version-upgrades-and-automated-blue-green-deployment)
+  - [🧩 Enhancing EKS Cluster with SaaS Architecture Best Practices](#-enhancing-eks-cluster-with-saas-architecture-best-practices)
+  - [🏗️ Building a Production-Grade EKS Cluster and Zero-Downtime ECS to EKS Migration](#%EF%B8%8F-building-a-production-grade-eks-cluster-and-zero-downtime-ecs-to-eks-migration)
 - [🗣️ Publications & Talks](#%EF%B8%8F-publications--talks)
-    - [🎤 Talks](#-talks)
-    - [✍️ Technical Writings](#%EF%B8%8F-technical-writings)
-    - [📚 Academic Publications](#-academic-publications)
+  - [🎤 Talks](#-talks)
+  - [✍️ Technical Writings](#%EF%B8%8F-technical-writings)
+  - [📚 Academic Publications](#-academic-publications)
 - [🛠️ Skills & Languages](#%EF%B8%8F-skills--languages)
-    - [🔧 Technical Skills](#-technical-skills)
-    - [🤝 Soft Skills](#-soft-skills)
-    - [🌐 Languages](#-languages)
+  - [🔧 Technical Skills](#-technical-skills)
+  - [🤝 Soft Skills](#-soft-skills)
+  - [🌐 Languages](#-languages)
 - [📇 Contact Information](#-contact-information)
 
 ## 💼 Work Experience
 
 - [Blux (Z.ai Inc.)](https://www.blux.ai/) (Jan 2023 - Jun 2025)
-    - *Information Security and DevOps Lead* (Aug 2024 - Jun 2025)
-        - **Led the entire SOC 2 Type I and Type II audit process**. This included establishing internal security protocols and conducting employee training, performing backup and restore testing, carrying out risk assessments, and enhancing cloud security (e.g., CloudTrail, WAF, GuardDuty). Handled more than 100 control items and managed external audits independently. As a result, we **successfully passed both audits within 7 months with no security incidents**.
-            - Related project 👉 [🔐 Preparing for and Passing SOC 2 Compliance Audits](#-preparing-for-and-passing-soc-2-compliance-audits)
-    - *MLOps Engineer* (Jan 2023 - Aug 2024)
-        - **Built a production-grade EKS cluster from scratch** and **migrated ECS workloads with zero-downtime**. (This cluster currently powers a real-time recommendation service for over 10 million MAU and has been operating stably without major incidents.)
-            - Related project 👉 [🏗️ Building a Production-Grade EKS Cluster and Zero-Downtime ECS to EKS Migration](#%EF%B8%8F-building-a-production-grade-eks-cluster-and-zero-downtime-ecs-to-eks-migration)
-        - **Designed and implemented a multi-tenant SaaS architecture based on AWS best practices**, including automated onboarding, tier-based silo/pool deployment models, and tenant-level resource isolation using IRSA.
-            - Related project 👉 [🧩 Enhancing EKS Cluster with SaaS Architecture Best Practices](#-enhancing-eks-cluster-with-saas-architecture-best-practices)
-        - **Upgraded Kubernetes cluster versions with zero-downtime** using a Blue-Green deployment strategy, and **automated new cluster provisioning through scripting**.
-            - Related project 👉 [🔄 Zero-Downtime EKS Cluster Version Upgrades and Automated Blue-Green Deployment](#-zero-downtime-eks-cluster-version-upgrades-and-automated-blue-green-deployment)
+  - _Information Security and DevOps Lead_ (Aug 2024 - Jun 2025)
+    - **Led the entire SOC 2 Type I and Type II audit process**. This included establishing internal security protocols and conducting employee training, performing backup and restore testing, carrying out risk assessments, and enhancing cloud security (e.g., CloudTrail, WAF, GuardDuty). Handled more than 100 control items and managed external audits independently. As a result, we **successfully passed both audits within 7 months with no security incidents**.
+      - Related project 👉 [🔐 Preparing for and Passing SOC 2 Compliance Audits](#-preparing-for-and-passing-soc-2-compliance-audits)
+  - _MLOps Engineer_ (Jan 2023 - Aug 2024)
+    - **Built a production-grade EKS cluster from scratch** and **migrated ECS workloads with zero-downtime**. (This cluster currently powers a real-time recommendation service for over 10 million MAU and has been operating stably without major incidents.)
+      - Related project 👉 [🏗️ Building a Production-Grade EKS Cluster and Zero-Downtime ECS to EKS Migration](#%EF%B8%8F-building-a-production-grade-eks-cluster-and-zero-downtime-ecs-to-eks-migration)
+    - **Designed and implemented a multi-tenant SaaS architecture based on AWS best practices**, including automated onboarding, tier-based silo/pool deployment models, and tenant-level resource isolation using IRSA.
+      - Related project 👉 [🧩 Enhancing EKS Cluster with SaaS Architecture Best Practices](#-enhancing-eks-cluster-with-saas-architecture-best-practices)
+    - **Upgraded Kubernetes cluster versions with zero-downtime** using a Blue-Green deployment strategy, and **automated new cluster provisioning through scripting**.
+      - Related project 👉 [🔄 Zero-Downtime EKS Cluster Version Upgrades and Automated Blue-Green Deployment](#-zero-downtime-eks-cluster-version-upgrades-and-automated-blue-green-deployment)
 
 ## 🎓 Education
 
 - Master of Science in Computer Science and Engineering, Seoul National University (Mar 2021 – Feb 2023)
-    - Conducted research on large-scale data processing and system architecture in the [Architecture and Code Optimization Lab](https://arc.snu.ac.kr/).
+  - Conducted research on large-scale data processing and system architecture in the [Architecture and Code Optimization Lab](https://arc.snu.ac.kr/).
 - Bachelor of Science in Industrial Engineering and Computer Science and Engineering (Double Major), Seoul National University (Mar 2014 – Feb 2021)
 
 ## 🏢 About Blux
@@ -55,7 +53,7 @@
 
 ### 🔐 Preparing for and Passing SOC 2 Compliance Audits
 
-*Aug 2024 - Mar 2025*
+_Aug 2024 - Mar 2025_
 
 **Background**
 
@@ -68,26 +66,26 @@
 
 - **Established a security framework using Drata**: To align with SOC 2 security standards, I **introduced the Drata platform** as our core compliance system. Based on Drata’s 100+ control items, I systematically reviewed our organization’s technical and administrative security practices. This provided a solid foundation for consistent execution of **security policy development, evidence management, and automated compliance tracking**.
 - **Strengthened security controls and infrastructure readiness**
-    - **Risk assessment and policy development**: Conducted risk assessments on technical and operational vulnerabilities, and established a full set of company-wide information security policies along with detailed sub-policies based on the findings.
-    - **Regular backup and recovery testing**: Designed and implemented backup plans for critical storage systems such as `S3`, `RDS`, and `MongoDB`, and conducted periodic restoration tests to ensure data recoverability.
-    - **Business Continuity and Disaster Recovery (BC/DR) planning**: Defined RTO and RPO values for critical systems and documented a company-wide continuity and disaster recovery plan to prepare for potential disruptions.
-    - **Internal security training and access control processes**: Standardized annual security training sessions and implemented onboarding/offboarding security checklists and access revocation procedures.
+  - **Risk assessment and policy development**: Conducted risk assessments on technical and operational vulnerabilities, and established a full set of company-wide information security policies along with detailed sub-policies based on the findings.
+  - **Regular backup and recovery testing**: Designed and implemented backup plans for critical storage systems such as `S3`, `RDS`, and `MongoDB`, and conducted periodic restoration tests to ensure data recoverability.
+  - **Business Continuity and Disaster Recovery (BC/DR) planning**: Defined RTO and RPO values for critical systems and documented a company-wide continuity and disaster recovery plan to prepare for potential disruptions.
+  - **Internal security training and access control processes**: Standardized annual security training sessions and implemented onboarding/offboarding security checklists and access revocation procedures.
 - **Key cloud security implementations**
-    - **Strengthened account and permission management**:
-        - Segmented `IAM Roles` by service and user responsibilities, enforcing the principle of least privilege.
-        - Used `CloudTrail` to log all API activity and resource modifications, enabling real-time detection of account misuse or privilege violations.
-    - **Built threat detection and defense mechanisms**:
-        - Configured `WAF` rules to block malicious IPs, filter based on headers, and rate-limit requests, thereby protecting major endpoints against DoS attacks and other external threats.
-        - Used `GuardDuty` to detect suspicious IAM activity, unusual network access, and intrusion attempts. Integrated `SNS` notifications to enable real-time alerting and rapid incident response.
+  - **Strengthened account and permission management**:
+    - Segmented `IAM Roles` by service and user responsibilities, enforcing the principle of least privilege.
+    - Used `CloudTrail` to log all API activity and resource modifications, enabling real-time detection of account misuse or privilege violations.
+  - **Built threat detection and defense mechanisms**:
+    - Configured `WAF` rules to block malicious IPs, filter based on headers, and rate-limit requests, thereby protecting major endpoints against DoS attacks and other external threats.
+    - Used `GuardDuty` to detect suspicious IAM activity, unusual network access, and intrusion attempts. Integrated `SNS` notifications to enable real-time alerting and rapid incident response.
 - **Managed external audit and cross-functional collaboration**
-    - Worked closely with the external auditor, AssuranceLab, to lead **pre-audit inquiry handling, control mapping reviews, and evidence submission**. Collected and organized over 100 pieces of evidence (screenshots, configuration records, system logs), and responded to all auditor inquiries with thorough documentation and technical clarification.
-    - Ensured smooth audit execution through **clear and responsive communication** with various internal and external stakeholders, including international institutions and departments across the company.
+  - Worked closely with the external auditor, AssuranceLab, to lead **pre-audit inquiry handling, control mapping reviews, and evidence submission**. Collected and organized over 100 pieces of evidence (screenshots, configuration records, system logs), and responded to all auditor inquiries with thorough documentation and technical clarification.
+  - Ensured smooth audit execution through **clear and responsive communication** with various internal and external stakeholders, including international institutions and departments across the company.
 
 **Results**
 
 - **Successfully obtained both SOC 2 Type I and Type II reports within approximately 7 months**.
 - Team-wide security awareness significantly improved, and key cloud security measures **effectively reduced or prevented real-world threats**.
-    - Throughout both the preparation and post-certification periods, **no security incidents occurred**, and the audit firm provided positive feedback, stating that we had established a well-structured and effective security control framework.
+  - Throughout both the preparation and post-certification periods, **no security incidents occurred**, and the audit firm provided positive feedback, stating that we had established a well-structured and effective security control framework.
 - The SOC 2 reports **enhanced trust in client meetings**, and I received feedback that they were being used by the sales team as **a strong selling point**.
 - **Successfully achieving global security compliance without a dedicated security team or function** demonstrated Blux’s technical capability and execution strength. This achievement was externally recognized, and I was **selected as a speaker at AWS Unicorn Day 2025**, where I delivered a presentation on our security journey.
 
@@ -95,18 +93,18 @@
 
 - [📝 [May 2025, Blux Tech Blog] Blux’s SOC 2 Compliance Journey and Key Takeaways](https://blog.blux.ai/%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-soc-2-%EB%B3%B4%EC%95%88-%EC%97%AC%EC%A0%95%EA%B3%BC-%EC%9A%B0%EB%A6%AC%EA%B0%80-%EB%82%A8%EA%B8%B4-%EA%B8%B0%EB%A1%9D-49217)
 - [📰 [Mar 2025, AWS Unicorn Day] Blux’s Security Journey for Its SaaS Platform (feat. SOC 2)](https://blog.blux.ai/aws-unicorn-day-2025%EC%97%90%EC%84%9C-%EC%A0%84%ED%95%98%EB%8A%94-%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-%EB%B3%B4%EC%95%88-%EC%A0%84%EB%9E%B5-48063)
-    - [📄 View Presentation Deck (PDF)](./assets/AWS_Unicorn_Day_2025_Deck.pdf)
+  - [📄 View Presentation Deck (PDF)](./assets/AWS_Unicorn_Day_2025_Deck.pdf)
 
 ### 🔄 Zero-Downtime EKS Cluster Version Upgrades and Automated Blue-Green Deployment
 
-*May 2024 - Jul 2024*
+_May 2024 - Jul 2024_
 
 **Background**
 
 - The Kubernetes version of our existing EKS cluster was nearing its official end-of-life (EOL), making a version upgrade necessary. However, upgrading a live cluster in place would pose **a significant risk of service interruption, potentially causing visible downtime or UI failures for over 10 million end users**. To avoid such impact, we opted not to modify the existing cluster directly. Instead, we decided to **provision a new cluster and gradually shift traffic using a Blue-Green deployment model**, ensuring a safer and more controlled transition.
 - The key goals of this project were:
-    - Seamlessly transition from the old to the new cluster **without any downtime**.
-    - Use the **Blue-Green deployment model** to ensure a safe cutover, while **automating the infrastructure provisioning process** to make the upgrade repeatable in the future.
+  - Seamlessly transition from the old to the new cluster **without any downtime**.
+  - Use the **Blue-Green deployment model** to ensure a safe cutover, while **automating the infrastructure provisioning process** to make the upgrade repeatable in the future.
 
 **What I Did**
 
@@ -115,20 +113,20 @@
 </p>
 
 - **Designed a Blue-Green Cluster Strategy and Managed Traffic Transition**
-    - Instead of upgrading the in-use production cluster directly, I provisioned a new EKS cluster with the updated Kubernetes version and configured it for parallel operation using the naming convention `blux-eks-cluster-prod-blue` and `blux-eks-cluster-prod-green`.
-    - Traffic was gradually shifted to the new cluster using Route 53’s `Weighted Routing` feature, enabling a smooth and controlled transition.
+  - Instead of upgrading the in-use production cluster directly, I provisioned a new EKS cluster with the updated Kubernetes version and configured it for parallel operation using the naming convention `blux-eks-cluster-prod-blue` and `blux-eks-cluster-prod-green`.
+  - Traffic was gradually shifted to the new cluster using Route 53’s `Weighted Routing` feature, enabling a smooth and controlled transition.
 - **Automated Cluster Provisioning via Scripts**: To prepare for future upgrades or migrations, I **automated the entire infrastructure setup from our internally defined Layer 0 to Layer 3** using shell scripts. This enabled reproducible cluster environments, where only the deployment environment (`prod`, `dev`) and model (`blue`, `green`) needed to be specified to provision a new cluster automatically.
 - **Migration Validation and Stability Checks with Observability Tools**: During the cutover, I monitored the system in real-time using `Prometheus`, `Loki`, and `Grafana`, focusing on the following key metrics:
-    - Distribution of HTTP response codes (2XX, 4XX, 5XX) across major APIs
-    - Response time and latency per API
-    - Request success rates and error trends by service
+  - Distribution of HTTP response codes (2XX, 4XX, 5XX) across major APIs
+  - Response time and latency per API
+  - Request success rates and error trends by service
 - **Verified Zero-Downtime via ALB Access Logs (S3) Analysis**: After traffic redirection via Route 53, I analyzed ALB access logs stored in S3 to verify backend IP distribution and response status. This confirmed that requests were successfully routed to the new cluster and processed without errors.
 - Based on these metrics, I was able to continuously detect anomalies during the migration and respond immediately to any issues.
 
 **Results**
 
 - **Successfully completed the cluster upgrade with zero-downtime**.
-    - Stability was maintained throughout the traffic transition, and the migration was completed without any major issues.
+  - Stability was maintained throughout the traffic transition, and the migration was completed without any major issues.
 - By developing automation scripts for cluster provisioning, I **significantly improved the efficiency** of future upgrade or migration tasks from a DevOps perspective. The setup also enabled **easy rollback** when necessary, making operations more robust and reliable.
 
 **Related Materials**
@@ -137,16 +135,16 @@
 
 ### 🧩 Enhancing EKS Cluster with SaaS Architecture Best Practices
 
-*Jun 2023 - Oct 2023*
+_Jun 2023 - Oct 2023_
 
 **Background**
 
 - As the number of Blux’s clients increased, the onboarding process required repeated manual involvement from multiple team members, including product owners, software engineers, and ML engineers. This led to inefficiencies and increased the risk of human error.
 - As tenant size and requirements diversified, smaller tenants demanded cost efficiency, while larger tenants required dedicated resources and customized management (e.g., private endpoints). The existing single-tier architecture made it difficult to flexibly accommodate such a wide range of needs.
 - The goals of this project were as follows:
-    - Build an automated onboarding process that can **provision new tenants within 3 hours**.
-    - **Apply different deployment models based on tenant size and service tier**.
-    - **Establish tier-based resource isolation**, with dedicated node resources provided to high-tier tenants.
+  - Build an automated onboarding process that can **provision new tenants within 3 hours**.
+  - **Apply different deployment models based on tenant size and service tier**.
+  - **Establish tier-based resource isolation**, with dedicated node resources provided to high-tier tenants.
 
 **What I Did**
 
@@ -161,11 +159,11 @@
 </p>
 
 - **Designed a multi-tier structure and applied deployment strategies**: To accommodate the varying sizes and requirements of tenants, I defined three service tiers: Standard, Premium, and Enterprise.
-    - The `Standard tier` uses a `Pool model`, where each tenant has its own Recommender API and trained model, but **Collector and ML APIs are shared across tenants via a common infrastructure and endpoint**. These workloads run in a **shared NodePool**, making this tier well-suited for tenants with lighter usage requirements.
-    - The `Premium and Enterprise tiers` adopt a `Silo model`, where **not only the Recommender API but also the Collector and ML APIs are deployed as separate instances with dedicated endpoints and infrastructure**. These tenants run in **dedicated NodePools**, ensuring full physical resource isolation. This design enables complete separation of data and traffic per tenant, offering both strong security and high flexibility, ideal for customers with strict SLA or compliance requirements.
+  - The `Standard tier` uses a `Pool model`, where each tenant has its own Recommender API and trained model, but **Collector and ML APIs are shared across tenants via a common infrastructure and endpoint**. These workloads run in a **shared NodePool**, making this tier well-suited for tenants with lighter usage requirements.
+  - The `Premium and Enterprise tiers` adopt a `Silo model`, where **not only the Recommender API but also the Collector and ML APIs are deployed as separate instances with dedicated endpoints and infrastructure**. These tenants run in **dedicated NodePools**, ensuring full physical resource isolation. This design enables complete separation of data and traffic per tenant, offering both strong security and high flexibility, ideal for customers with strict SLA or compliance requirements.
 - **Established a resource isolation structure**
-    - Each tenant is isolated at the `namespace` level, and `IRSA (IAM Roles for Service Accounts)` is applied to each workload to ensure logical separation of AWS resource access.
-    - For higher-tier tenants in particular, dedicated `NodePools` were provisioned so that their workloads run exclusively on physically separate EC2 nodes. This approach eliminates noisy neighbor issues caused by high-traffic tenants and guarantees high availability and consistent performance.
+  - Each tenant is isolated at the `namespace` level, and `IRSA (IAM Roles for Service Accounts)` is applied to each workload to ensure logical separation of AWS resource access.
+  - For higher-tier tenants in particular, dedicated `NodePools` were provisioned so that their workloads run exclusively on physically separate EC2 nodes. This approach eliminates noisy neighbor issues caused by high-traffic tenants and guarantees high availability and consistent performance.
 
 **Results**
 
@@ -179,11 +177,11 @@
 
 - [📝 [Nov 2023, AWS Tech Blog] How a Korean Startup Built Their SaaS on Amazon EKS: Blux’s AWS Architecture Patterns](https://aws.amazon.com/ko/blogs/tech/blux-adopting-aws-saas-architecture/)
 - [🎥 [Mar 2024, AWS Unicorn Day] [Track 3-4] Key Technical Considerations for Building SaaS Solutions and a Case Study of Blux’s AI SaaS Platform](https://youtu.be/QKi14XpHY7M?si=KC5pfXqaEd_y4SOZ&t=1267)
-    - [📄 View Presentation Deck (PDF)](./assets/AWS_Unicorn_Day_2024_Deck.pdf)
+  - [📄 View Presentation Deck (PDF)](./assets/AWS_Unicorn_Day_2024_Deck.pdf)
 
 ### 🏗️ Building a Production-Grade EKS Cluster and Zero-Downtime ECS to EKS Migration
 
-*Jan 2023 - May 2023*
+_Jan 2023 - May 2023_
 
 **Background**
 
@@ -191,9 +189,9 @@
 - In contrast, Amazon EKS-based Kubernetes offered **flexible resource allocation**, **namespace-based multi-tenancy**, **diverse deployment strategies such as rolling, canary, and blue-green**, and access to a **rich open-source ecosystem**, making it a more flexible and automation-friendly solution.
 - Internally, consensus formed around the idea of “migrating to Kubernetes before the client base grows further,” and we determined that **EKS would be a more advantageous long-term solution**. Thus, we initiated a full migration.
 - As the sole MLOps engineer at Blux, I was fully responsible for **building a production-grade EKS cluster from scratch** and **migrating all ECS workloads without downtime**. The cluster needed to satisfy the following requirements:
-    - **Infrastructure as Code (IaC)** with consistent and reproducible cluster configuration
-    - Support for reliable **autoscaling**, **logging/monitoring**, **security management**, and **CI/CD pipelines**
-    - Integration with **ML pipelines built on Airflow and MLflow**
+  - **Infrastructure as Code (IaC)** with consistent and reproducible cluster configuration
+  - Support for reliable **autoscaling**, **logging/monitoring**, **security management**, and **CI/CD pipelines**
+  - Integration with **ML pipelines built on Airflow and MLflow**
 
 **What I Did**
 
@@ -202,21 +200,21 @@
 </p>
 
 - **Infrastructure Design and Operational Automation**: The entire infrastructure was structured into **four layers (Layer 0 to Layer 3)**, which I defined internally with a focus on maintainability and scalability. Each layer was separated by its role and dependency on cloud services. All deployments were managed in a `GitOps` manner using `Terraform`, `Helm`, and `Argo CD`.
-    - Breakdown of the four layers:
-        - **Layer 0**: Backend infrastructure such as S3 and DynamoDB (now deprecated) for Terraform state storage
-        - **Layer 1**: Cloud-based Kubernetes cluster and system infrastructure (EKS, EC2 node groups, IAM, KMS, etc.)
-        - **Layer 2**: MLOps and GitOps stack components
-        - **Layer 3**: Blux application workloads
-    - Layers 0 and 1 directly depend on cloud services like AWS and are considered cloud-dependent, whereas Layers 2 and 3 are cloud-agnostic, designed to be reproducible across different environments. This architecture allowed us to build a production-grade infrastructure that is **secure, scalable, reliable, and reproducible**.
+  - Breakdown of the four layers:
+    - **Layer 0**: Backend infrastructure such as S3 and DynamoDB (now deprecated) for Terraform state storage
+    - **Layer 1**: Cloud-based Kubernetes cluster and system infrastructure (EKS, EC2 node groups, IAM, KMS, etc.)
+    - **Layer 2**: MLOps and GitOps stack components
+    - **Layer 3**: Blux application workloads
+  - Layers 0 and 1 directly depend on cloud services like AWS and are considered cloud-dependent, whereas Layers 2 and 3 are cloud-agnostic, designed to be reproducible across different environments. This architecture allowed us to build a production-grade infrastructure that is **secure, scalable, reliable, and reproducible**.
 
 <p align="center">
   <img src="./assets/arch.png" alt="EKS-based architecture" width="700"/>
 </p>
 
 - **MLOps Stack Implementation**
-    - For autoscaling, I combined `HPA (Horizontal Pod Autoscaler)` and `Karpenter` to support scaling at both the workload and infrastructure levels. All workloads were managed through `NodePools` (formerly known as `Provisioners`) to optimize cost.
-    - To ensure observability, I established a metrics-based monitoring system using `Prometheus` and `Grafana`, and initially built a logging architecture with the `EFK` stack (Elasticsearch, Fluentd, Kibana). Later, to improve operational efficiency and reduce resource consumption, I migrated to the lighter `PLG` stack (Promtail, Loki, Grafana).
-    - I deployed `Airflow` and `MLflow` in the cluster. The Airflow DAGs were designed using `KubernetesPodOperator`, which launches and terminates worker nodes only when needed. This was combined with `NodePools`, `Taints`, and `Tolerations` to dynamically provision and tear down worker nodes, allowing for efficient resource utilization.
+  - For autoscaling, I combined `HPA (Horizontal Pod Autoscaler)` and `Karpenter` to support scaling at both the workload and infrastructure levels. All workloads were managed through `NodePools` (formerly known as `Provisioners`) to optimize cost.
+  - To ensure observability, I established a metrics-based monitoring system using `Prometheus` and `Grafana`, and initially built a logging architecture with the `EFK` stack (Elasticsearch, Fluentd, Kibana). Later, to improve operational efficiency and reduce resource consumption, I migrated to the lighter `PLG` stack (Promtail, Loki, Grafana).
+  - I deployed `Airflow` and `MLflow` in the cluster. The Airflow DAGs were designed using `KubernetesPodOperator`, which launches and terminates worker nodes only when needed. This was combined with `NodePools`, `Taints`, and `Tolerations` to dynamically provision and tear down worker nodes, allowing for efficient resource utilization.
 
 <p align="center">
   <img src="./assets/cicd.png" alt="Blux's CI/CD pipeline" width="700"/>
@@ -246,10 +244,10 @@
 ### 🎤 Talks
 
 - [📰 [Mar 2025, AWS Unicorn Day] Blux’s Security Journey for Its SaaS Platform (feat. SOC 2)](https://blog.blux.ai/aws-unicorn-day-2025%EC%97%90%EC%84%9C-%EC%A0%84%ED%95%98%EB%8A%94-%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-%EB%B3%B4%EC%95%88-%EC%A0%84%EB%9E%B5-48063)
-    - [📄 View Presentation Deck (PDF)](./assets/AWS_Unicorn_Day_2025_Deck.pdf)
+  - [📄 View Presentation Deck (PDF)](./assets/AWS_Unicorn_Day_2025_Deck.pdf)
 - [📰 [Oct 2024, AWS 2024 SaaS Developer Bootcamp] How Blux Built Its AI SaaS Solution](https://blog.blux.ai/%EB%B8%94%EB%9F%AD%EC%8A%A4%EA%B0%80-%EC%A0%84%ED%95%98%EB%8A%94-aws-saas-%EC%A0%84%ED%99%98%EC%9D%98-%EC%84%B1%EA%B3%B5-%EB%B9%84%EA%B2%B0-33488)
 - [🎥 [Mar 2024, AWS Unicorn Day] [Track 3-4] Key Technical Considerations for Building SaaS Solutions and a Case Study of Blux’s AI SaaS Platform](https://youtu.be/QKi14XpHY7M?si=KC5pfXqaEd_y4SOZ&t=1267)
-    - [📄 View Presentation Deck (PDF)](./assets/AWS_Unicorn_Day_2024_Deck.pdf)
+  - [📄 View Presentation Deck (PDF)](./assets/AWS_Unicorn_Day_2024_Deck.pdf)
 
 ### ✍️ Technical Writings
 
@@ -272,10 +270,10 @@
 ### 🔧 Technical Skills
 
 - Cloud & DevOps
-    - Infrastructure: AWS, Kubernetes, Helm, Terraform
-    - Autoscaling: HPA, Karpenter
-    - Logging & Monitoring: Prometheus, Loki, Grafana, Elasticsearch, Fluentd, Kibana
-    - CI/CD & GitOps: Jenkins, GitHub Actions, Argo CD
+  - Infrastructure: AWS, Kubernetes, Helm, Terraform
+  - Autoscaling: HPA, Karpenter
+  - Logging & Monitoring: Prometheus, Loki, Grafana, Elasticsearch, Fluentd, Kibana
+  - CI/CD & GitOps: Jenkins, GitHub Actions, Argo CD
 - Programming Languages: Python, Java, C++, TypeScript
 - Operating Systems & Tools: Linux, Git, Docker
 
@@ -290,7 +288,7 @@
 
 - Korean: Native
 - English: Proficient
-    - TOEFL 114/120 (May 2018)
+  - TOEFL 114/120 (May 2018)
 
 ## 📇 Contact Information
 
