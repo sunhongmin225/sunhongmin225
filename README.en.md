@@ -1,6 +1,6 @@
 
 > 🌐 *This page is written in English.*  
-> 👉 *[한국어 버전 보기](https://github.com/sunhongmin225/sunhongmin225)*
+> 👉 *[한국어 버전 보기](https://github.com/sunhongmin225/)*
 
 <h1 align="center">Hi, I'm Sunhong Min, a DevOps Engineer.</h1>
 
