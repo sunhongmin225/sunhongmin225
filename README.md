@@ -93,7 +93,7 @@ _2024년 8월 - 2025년 3월_
 **참고 자료**
 
 - [📝 [2025년 5월, 블럭스 블로그] 블럭스의 SOC 2 보안 여정과 우리가 남긴 기록](https://blog.blux.ai/%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-soc-2-%EB%B3%B4%EC%95%88-%EC%97%AC%EC%A0%95%EA%B3%BC-%EC%9A%B0%EB%A6%AC%EA%B0%80-%EB%82%A8%EA%B8%B4-%EA%B8%B0%EB%A1%9D-49217)
-- [📰 [2025년 3월, AWS Unicorn Day] 블럭스의 SaaS 서비스를 위한 보안 여정 (feat. SOC 2)](https://blog.blux.ai/aws-unicorn-day-2025%EC%97%90%EC%84%9C-%EC%A0%84%ED%95%98%EB%8A%94-%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-%EB%B3%B4%EC%95%88-%EC%A0%84%EB%9E%B5-48063)
+- [🎥 [2025년 3월, AWS Unicorn Day] 블럭스의 SaaS 서비스를 위한 보안 여정 (feat. SOC 2)](https://youtu.be/CjMExRBYxd0?si=rutsPPrlBZ1xA-Po)
   - [📄 발표 자료 보기 (PDF)](./assets/AWS_Unicorn_Day_2025_Deck.pdf)
 
 ### 🔄 무중단 EKS 클러스터 버전 업그레이드 및 자동화된 Blue-Green 배포 모델 구축
@@ -244,7 +244,7 @@ _2023년 1월 - 2023년 5월_
 
 ### 🎤 Talks
 
-- [📰 [2025년 3월, AWS Unicorn Day] 블럭스의 SaaS 서비스를 위한 보안 여정 (feat. SOC 2)](https://blog.blux.ai/aws-unicorn-day-2025%EC%97%90%EC%84%9C-%EC%A0%84%ED%95%98%EB%8A%94-%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-%EB%B3%B4%EC%95%88-%EC%A0%84%EB%9E%B5-48063)
+- [🎥 [2025년 3월, AWS Unicorn Day] 블럭스의 SaaS 서비스를 위한 보안 여정 (feat. SOC 2)](https://youtu.be/CjMExRBYxd0?si=rutsPPrlBZ1xA-Po)
   - [📄 발표 자료 보기 (PDF)](./assets/AWS_Unicorn_Day_2025_Deck.pdf)
 - [📰 [2024년 10월, AWS 2024 SaaS Developer Bootcamp] 블럭스의 AI SaaS 솔루션 구축 사례](https://blog.blux.ai/%EB%B8%94%EB%9F%AD%EC%8A%A4%EA%B0%80-%EC%A0%84%ED%95%98%EB%8A%94-aws-saas-%EC%A0%84%ED%99%98%EC%9D%98-%EC%84%B1%EA%B3%B5-%EB%B9%84%EA%B2%B0-33488)
 - [🎥 [2024년 3월, AWS Unicorn Day] [Track 3-4] SaaS 솔루션 구축을 위한 주요 기술 고려 사항과 Blux의 AI SaaS 솔루션 구축 사례](https://youtu.be/QKi14XpHY7M?si=KC5pfXqaEd_y4SOZ&t=1267)

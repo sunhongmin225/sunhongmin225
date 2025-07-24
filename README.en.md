@@ -93,7 +93,7 @@ _Aug 2024 - Mar 2025_
 **Related Materials**
 
 - [📝 [May 2025, Blux Tech Blog] Blux’s SOC 2 Compliance Journey and Key Takeaways](https://blog.blux.ai/%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-soc-2-%EB%B3%B4%EC%95%88-%EC%97%AC%EC%A0%95%EA%B3%BC-%EC%9A%B0%EB%A6%AC%EA%B0%80-%EB%82%A8%EA%B8%B4-%EA%B8%B0%EB%A1%9D-49217)
-- [📰 [Mar 2025, AWS Unicorn Day] Blux’s Security Journey for Its SaaS Platform (feat. SOC 2)](https://blog.blux.ai/aws-unicorn-day-2025%EC%97%90%EC%84%9C-%EC%A0%84%ED%95%98%EB%8A%94-%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-%EB%B3%B4%EC%95%88-%EC%A0%84%EB%9E%B5-48063)
+- [🎥 [Mar 2025, AWS Unicorn Day] Blux’s Security Journey for Its SaaS Platform (feat. SOC 2)](https://youtu.be/CjMExRBYxd0?si=rutsPPrlBZ1xA-Po)
   - [📄 View Presentation Deck (PDF)](./assets/AWS_Unicorn_Day_2025_Deck.pdf)
 
 ### 🔄 Zero-Downtime EKS Cluster Version Upgrades and Automated Blue-Green Deployment
@@ -244,7 +244,7 @@ _Jan 2023 - May 2023_
 
 ### 🎤 Talks
 
-- [📰 [Mar 2025, AWS Unicorn Day] Blux’s Security Journey for Its SaaS Platform (feat. SOC 2)](https://blog.blux.ai/aws-unicorn-day-2025%EC%97%90%EC%84%9C-%EC%A0%84%ED%95%98%EB%8A%94-%EB%B8%94%EB%9F%AD%EC%8A%A4%EC%9D%98-%EB%B3%B4%EC%95%88-%EC%A0%84%EB%9E%B5-48063)
+- [🎥 [Mar 2025, AWS Unicorn Day] Blux’s Security Journey for Its SaaS Platform (feat. SOC 2)](https://youtu.be/CjMExRBYxd0?si=rutsPPrlBZ1xA-Po)
   - [📄 View Presentation Deck (PDF)](./assets/AWS_Unicorn_Day_2025_Deck.pdf)
 - [📰 [Oct 2024, AWS 2024 SaaS Developer Bootcamp] How Blux Built Its AI SaaS Solution](https://blog.blux.ai/%EB%B8%94%EB%9F%AD%EC%8A%A4%EA%B0%80-%EC%A0%84%ED%95%98%EB%8A%94-aws-saas-%EC%A0%84%ED%99%98%EC%9D%98-%EC%84%B1%EA%B3%B5-%EB%B9%84%EA%B2%B0-33488)
 - [🎥 [Mar 2024, AWS Unicorn Day] [Track 3-4] Key Technical Considerations for Building SaaS Solutions and a Case Study of Blux’s AI SaaS Platform](https://youtu.be/QKi14XpHY7M?si=KC5pfXqaEd_y4SOZ&t=1267)
