@@ -1,7 +1,7 @@
 > 🌐 _이 페이지는 한국어로 작성되었습니다._  
 > 👉 _[Click here for English version](https://github.com/sunhongmin225/sunhongmin225/blob/main/README.en.md)_
 
-<h1 align="center">안녕하세요, DevOps Engineer 민선홍입니다.</h1>
+<h1 align="center">안녕하세요, DevOps & Site Reliability Engineer 민선홍입니다.</h1>
 
 ## 📌 Table of Contents
 

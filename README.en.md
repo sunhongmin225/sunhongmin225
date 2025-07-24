@@ -1,7 +1,7 @@
 > 🌐 _This page is written in English._  
 > 👉 _[한국어 버전 보기](https://github.com/sunhongmin225/)_
 
-<h1 align="center">Hi, I'm Sunhong Min, a DevOps Engineer.</h1>
+<h1 align="center">Hi, I'm Sunhong Min, a DevOps & Site Reliability Engineer.</h1>
 
 ## 📌 Table of Contents
 
